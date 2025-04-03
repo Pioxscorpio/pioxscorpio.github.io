@@ -1,4 +1,6 @@
 import './App.css';
+import Academics from './components/Academics';
+import Certificates from './components/Certificates';
 import Experience from './components/Experience';
 import Hero from './components/Hero';
 
@@ -8,6 +10,8 @@ function App() {
       <div className='mx-auto max-w-3xl p-6'>
         <Hero />
         <Experience />
+        <Academics />
+        <Certificates />
       </div>
     </div>
   );
